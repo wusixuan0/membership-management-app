@@ -7,7 +7,7 @@ const firebaseConfig = {
   authDomain: "membership-management-ap-534ee.firebaseapp.com",
   projectId: "membership-management-ap-534ee",
   storageBucket: "membership-management-ap-534ee.appspot.com",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  messagingSenderId: "637328153417",
   appId: "1:637328153417:web:91eff3bd0239d06cd01898"
 };
 
