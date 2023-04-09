@@ -1,13 +1,14 @@
-import firebase from "firebase/app";
-import "firebase/firestore";
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/firestore';
+import 'firebase/compat/auth';
 
 const firebaseConfig = {
   apiKey: "AIzaSyA6Ry9OH26voviibeu0-DR9sZmHJZ2-RgY",
-  authDomain: "YOUR_AUTH_DOMAIN",
+  authDomain: "membership-management-ap-534ee.firebaseapp.com",
   projectId: "membership-management-ap-534ee",
-  storageBucket: "YOUR_STORAGE_BUCKET",
+  storageBucket: "membership-management-ap-534ee.appspot.com",
   messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  appId: "1:637328153417:web:91eff3bd0239d06cd01898"
 };
 
 firebase.initializeApp(firebaseConfig);

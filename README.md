@@ -6,6 +6,7 @@ install packages
 ### `npm install firebase`
 ### `npm install react-firebase-hooks`
 ### `npm install -g firebase-tools`
+### `npm install -g firebase-tools`
 
 In the project directory, you can run:
 

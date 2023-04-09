@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 import firebase from 'firebase/app';
 import 'firebase/firestore';
-import { db } from "../firebase.js";
+import { db } from "./firebase.js";
 
 db.collection("classes").get().then((querySnapshot) => {
   querySnapshot.forEach((doc) => {
